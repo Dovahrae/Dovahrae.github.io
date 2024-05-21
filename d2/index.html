@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Desirae Trumble's Portfolio</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+        />
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <section
+                id="intro"
+                class="d-flex flex-column justify-content-center align-items-center"
+            >
+                <h1>Desirae Trumble</h1>
+                <h3>Hoping I Figure It Out</h3>
+                <code>Trying To Do My Best</code>
+                <a href="#about">
+                    <span class="material-symbols-outlined" id="arrowDown">
+                        keyboard_arrow_down
+                    </span></a
+                >
+                <!-- end of intro section -->
+            </section>
+            <section id="about">
+                <h1>About</h1>
+                <p>APPLE</p>
+                <!-- ORANGE -->
+                <!-- end of about section -->
+            </section>
+            <section id="contact">
+                <h1>Contact</h1>
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        Want to get in touch? Shoot me an
+                        <a href="mailto:desirae.trumble@icloud.com">email </a>
+                        or fill out the form.
+                    </div>
+                    <!-- end of contact text  -->
+                    <form class="col-md-6 col-xs-12">
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="text" placeholder="First Name" />
+
+                                <!-- end of first name col -->
+                            </div>
+                            <div class="col-6">
+                                <input type="text" placeholder="Last Name" />
+
+                                <!-- end of last name col -->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" placeholder="Email" />
+                            </div>
+                            <!-- end of email row -->
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <textarea
+                                    placeholder="Let me know what you need!"
+                                ></textarea>
+                            </div>
+                            <!-- end of comment row -->
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-success">
+                                Send 📬
+                            </button>
+                        </div>
+                        <!-- end of contact form -->
+                    </form>
+                </div>
+            </section>
+            <section id="portfolio">
+                <h1>Portfolio</h1>
+                <p>Click a card to view a project!</p>
+                <div class="row">
+                    <div class="col-sm-4 col=xs-6">
+                        <div class="card">
+                            <img
+                                src="img/weather-app.png"
+                                class="card-img-top"
+                                alt="An imaged of an app showing the current weather and a five day forecast"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Weather App</h5>
+                                <p class="card-text">
+                                    My first front end project modeled after a
+                                    weather website.
+                                </p>
+                                <a href="weather.html" class="btn btn-info"
+                                    >Make it rain</a
+                                >
+                            </div>
+                        </div>
+                        <!-- end of first project -->
+                    </div>
+                    <div class="col-sm-4 col=xs-6">
+                        <div class="card">
+                            <img
+                                src="img/30-second-feedback.png"
+                                class="card-img-top"
+                                alt="An image showing a short feedback form"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Feedback Form</h5>
+                                <p class="card-text">
+                                    A quick feedback form modeled after Google
+                                    Forms.
+                                </p>
+                                <a href="#" class="btn btn-info"
+                                    >Provide Feedback</a
+                                >
+                            </div>
+                        </div>
+                        <!-- end of second project -->
+                    </div>
+                    <div class="col-sm-4 col=xs-6">
+                        <div class="card">
+                            <img
+                                src="img/maxflix.png"
+                                class="card-img-top"
+                                alt="An image with the Maxflix logo in red text"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Maxflix</h5>
+                                <p class="card-text">
+                                    A completely original and never before seen
+                                    streaming channel
+                                </p>
+                                <a href="#" class="btn btn-info"
+                                    >Start Watching</a
+                                >
+                            </div>
+                        </div>
+                        <!-- end of project three -->
+                    </div>
+                </div>
+            </section>
+            <footer>©2024 Hack Upstate LLC</footer>
+            <!-- end of main site container -->
+        </div>
+    </body>
+</html>
